@@ -18,17 +18,10 @@ repositories {
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
-<<<<<<< HEAD
 	implementation 'mysql:mysql-connector-java:8.0.23'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	implementation 'javax.persistence:javax.persistence-api:2.2'
 
-=======
-	runtimeOnly 'com.mysql:mysql-connector-j'
-	testImplementation 'org.springframework.boot:spring-boot-starter-test'
-	implementation 'javax.persistence:javax.persistence-api:2.2'
-	implementation 'org.flywaydb:flyway-core'
->>>>>>> bf3215978af7449e7f897db95ed7178fab113fae
 }
 
 tasks.named('test') {
